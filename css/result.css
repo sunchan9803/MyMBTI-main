@@ -6,6 +6,12 @@
   border-radius: 20px;
 }
 
+#shareResult {
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
 .resultDesc {
   font-size: 20px;
 }
@@ -26,4 +32,18 @@
 .kakao:focus {
   background-color: whitesmoke;
   color: #fee500;
+}
+
+.gohome {
+  color: white;
+  background-color: skyblue;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.gohome:hover,
+.gohome:focus {
+  background-color: whitesmoke;
+  color: skyblue;
 }
