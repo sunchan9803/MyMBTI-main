@@ -6,7 +6,7 @@ function setShare() {
   const shareTitle = "여행취향 분석 결과";
   const shareDes = infoList[resultAlt].name;
   const shareImage = url + "img/image-" + resultAlt + ".png";
-  const shareURL = url + "page.result-" + resultAlt + ".html";
+  const shareURL = url + "page/result-" + resultAlt + ".html";
 
   Kakao.Share.sendDefault({
     objectType: "feed",
